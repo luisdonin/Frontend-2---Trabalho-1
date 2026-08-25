@@ -1,16 +1,22 @@
-import { DiceIcon } from "./DiceIcon";
+
+import './css/Navbar.css'
 export function Navbar({title}){
     return(
-        <nav className="navbar navbar-dark bg-dark">
-            <div className="container-fluid"/>
-                <a className="text-white" href="https://weastcoast.games/?ref=lapaninja">Weast Coast</a>
-                <a className="navbar-brand d-flex align-items-left gap-2" href="#"><DiceIcon size={30}></DiceIcon></a>
-            <h1>{title}</h1>
+        <nav className="navbar navbar-light bg-light">
+            <div className="container">
+                <h1><a href="https://weastcoast.games/?ref=lapaninja">{title}</a></h1>
+
+
             <ul>
                 <li>Shop</li>
                 <li>About Us</li>
                 <li>Stores</li>
             </ul>
+            <ul>
+                <li>ig</li>
+                <li>cart</li>
+            </ul>
+            </div>
         </nav>
     );
 }

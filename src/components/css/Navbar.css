@@ -1,0 +1,13 @@
+h1 {
+    color: black;
+    font-family: 'Unbounded', sans-serif;
+
+}
+a {
+       text-decoration: none !important;
+}
+li{
+    display: inline;
+    margin: 10px;
+    font-family: 'Unbounded', sans-serif;
+}
