@@ -10,7 +10,12 @@ function App() {
   return (
     <>
       <Navbar title={'Weast Coast'}/>
+      <div className="text-box">
+        <h1>Weast Coast</h1>
+      </div>
+      
     </>
+
   )
 }
 

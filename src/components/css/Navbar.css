@@ -1,13 +1,17 @@
+.container{
+    border-bottom:2px solid antiquewhite;
+}
 h1 {
-    color: black;
     font-family: 'Unbounded', sans-serif;
 
 }
 a {
        text-decoration: none !important;
+       color:antiquewhite !important;
 }
 li{
     display: inline;
     margin: 10px;
+    color:antiquewhite !important;
     font-family: 'Unbounded', sans-serif;
 }
