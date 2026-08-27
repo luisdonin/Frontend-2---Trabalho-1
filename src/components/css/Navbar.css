@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
 .container{
     border-bottom:2px solid antiquewhite;
+    font-family: 'Syne', sans-serif;
 }
 h1 {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Syne', sans-serif;
 
 }
 a {
@@ -13,5 +15,5 @@ li{
     display: inline;
     margin: 10px;
     color:antiquewhite !important;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Syne', sans-serif;
 }

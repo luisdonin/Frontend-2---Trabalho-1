@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
+.text-box{
+    color: antiquewhite !important;
+    text-align: left;
+    font-family: 'Syne', sans-serif;
+    border-bottom:2px solid antiquewhite;
+
+}
+.text-half-screen{
+    width: 70%;
+}
+strong{
+    font-size: 64px !important;
+}
+p{
+    font-size: 28px !important;
+    font-family: 'Syne', sans-serif;
+    
+}

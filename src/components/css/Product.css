@@ -1,0 +1,13 @@
+.img-bg{   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    border-radius: 30px;
+    border: 2px solid antiquewhite;
+    margin: 10px;
+}
+.text-content{
+    text-align: left;
+    margin: 10px;
+}
