@@ -7,7 +7,7 @@ export function Product({productSubtitle, productTitle, bgImage}){
             <h1>
                 {productTitle}
             </h1>
-            <button>Learn more</button>
+            <button>Learn more →</button>
         </div>
     </div>
     );

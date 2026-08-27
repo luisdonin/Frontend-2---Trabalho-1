@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
 .text-box{
-    color: antiquewhite !important;
+    color: rgb(229, 231, 235) !important;
     text-align: left;
     font-family: 'Syne', sans-serif;
-    border-bottom:2px solid antiquewhite;
+    border-bottom:2px solid rgb(229, 231, 235);
 
 }
 .text-half-screen{
