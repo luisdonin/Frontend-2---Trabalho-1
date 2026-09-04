@@ -6,7 +6,6 @@
   font-style: normal;
 }
 .container{
-    border-bottom:2px solid rgb(229, 231, 235);
     font-family: "Paprika", system-ui;
     background-color: #000000 !important;
 }
@@ -15,8 +14,8 @@ h1 {
 
 }
 a {
-       text-decoration: none !important;
-       color:rgb(229, 231, 235) !important;
+    text-decoration: none !important;
+    color:rgb(229, 231, 235) !important;
 }
 li{
     display: inline;

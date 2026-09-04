@@ -9,10 +9,9 @@ export function ProductSmall({productSubtitle, productTitle, bgImage}){
                     <h1>{productTitle}</h1>
                     <h3>{productSubtitle}</h3>
                 </div>
+                <button className="btn-small">+</button>
+                </div>
             </div>
-            <button className='btn-small'>+</button>
         </div>
-        </div>
-    
     );
 }

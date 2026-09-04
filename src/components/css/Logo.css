@@ -1,9 +1,9 @@
-img{
-    width:100px;
-    height: 100px;
-    border-radius: 100% ;
-    position: fixed;
-    top: 20px;
-    left: 1200px;
-    z-index: 1000;
-} 
+.logo-img {
+  width: 100px;
+  border-radius: 50%;
+  position: fixed;
+  top: 20px;
+  right: 450px; 
+  z-index: 1000;
+  object-fit: cover;
+}

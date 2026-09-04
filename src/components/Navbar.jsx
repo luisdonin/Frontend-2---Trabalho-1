@@ -1,4 +1,4 @@
-
+import { Logo } from './Logo';
 import './css/Navbar.css'
 export function Navbar({title}){
     return(
@@ -10,6 +10,7 @@ export function Navbar({title}){
                 <li>About Us</li>
                 <li>Stores</li>
             </ul>
+
             <ul>
                 <li>ig</li>
                 <li>cart</li>
