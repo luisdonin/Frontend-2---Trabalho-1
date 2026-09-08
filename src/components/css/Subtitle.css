@@ -3,6 +3,7 @@
     color: rgb(229, 231, 235) !important;
     text-align: left;
     font-family: 'Syne', sans-serif;
+    border-bottom: 2px solid rgb(229, 231, 235);
 
 }
 .text-half-screen{

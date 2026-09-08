@@ -17,6 +17,7 @@ import moreStack from './assets/more_stack.webp';
 import './components/Reviews';
 import {Reviews} from './components/Reviews';
 import { BigImage } from './components/BigImage';
+import {Form} from './components/Form'
 function App() {
   return (
     <>
@@ -37,10 +38,11 @@ function App() {
       <ProductSmall productSubtitle={'Stackable Set Collection.'} productTitle={'FRUIT BOSS'} bgImage={fruitBoss} ></ProductSmall>
       <ProductSmall productSubtitle={"All Three Card Games!"} productTitle={'CARDS PACK'} bgImage={moreStack} ></ProductSmall>  
     </div>
+    
     <Subtitle highlighted={'PRAISE FOR OUR GAMES...'} paragraph={' '}></Subtitle> 
     
-    <div className="container py-5">
-      <div className="row g-0 border-top border-bottom border-secondary py-4">
+    <div className="container py-5" style={{ border: 'none' }}>
+      <div className="row g-0 border-bottom border-secondary py-4">
         <Reviews 
           review="Even those in my life who do not share my appreciation for board games enjoy playing this one." 
           costumerName="Joe Mcguire" 
@@ -57,6 +59,7 @@ function App() {
       </div>
     </div>
     <BigImage url={oasisBig}></BigImage>
+    <Form></Form>
     
     </>
 
