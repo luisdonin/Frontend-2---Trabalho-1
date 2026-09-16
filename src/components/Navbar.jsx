@@ -2,7 +2,7 @@ import { Logo } from './Logo';
 import './css/Navbar.css'
 export function Navbar({title}){
     return(
-      <nav className="navbar navbar-dark text-white" style={{ backgroundColor: '#000000' }}>
+      <nav className="navbar navbar-dark text-white" style={{ backgroundColor: '#151716' }}>
             <div className="container">
                 <h1><a href="https://weastcoast.games/?ref=lapaninja">{title}</a></h1>
             <ul>

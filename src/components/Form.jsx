@@ -1,6 +1,6 @@
 export function Form() {
   return (
-    <div style={{ backgroundColor: '#111111', padding: '10px 0', width: '100%' }}>
+    <div style={{ backgroundColor: '#151716', padding: '10px 0', width: '100%' }}>
       <form style={{ width: '100%', maxWidth: '400px', margin: '0' }}>
         <h2
           style={{

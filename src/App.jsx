@@ -18,6 +18,7 @@ import './components/Reviews';
 import {Reviews} from './components/Reviews';
 import { BigImage } from './components/BigImage';
 import {Form} from './components/Form'
+import weastCoastTypo from './assets/weastcoastypo.png'
 function App() {
   return (
     <>
@@ -59,6 +60,7 @@ function App() {
       </div>
     </div>
     <BigImage url={oasisBig}></BigImage>
+    <BigImage url={weastCoastTypo}></BigImage>
     <Form></Form>
     
     </>

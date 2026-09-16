@@ -1,4 +1,3 @@
-img {
-    border: 2px solid aliceblue;
-    border-radius: 5%;
+#bigImg{
+    border-radius: 10px;
 }
