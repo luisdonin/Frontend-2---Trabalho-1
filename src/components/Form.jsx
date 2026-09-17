@@ -11,7 +11,7 @@ export function Form() {
           <form style={{ width: '100%', maxWidth: '400px', margin: '0' }}>
             <h2
               style={{
-                color: '#ffffff',
+                color: '#FFFFEB',
                 fontFamily: '"Impact", "Arial Black", sans-serif',
                 fontSize: '20px',
                 fontWeight: '900',
@@ -34,7 +34,7 @@ export function Form() {
                   border: '1px solid #ffffff',
                   borderRadius: '999px',
                   padding: '4px 34px 4px 12px',
-                  color: '#ffffff',
+                  color: '#FFFFEB',
                   fontSize: '13px',
                   outline: 'none',
                   boxSizing: 'border-box',
@@ -82,7 +82,7 @@ export function Form() {
             style={{ width: '130px', height: 'auto', marginRight: '30px' }}
           />
           
-          <ul style={{ color: '#ffffff', listStyleType: 'none', padding: 0, margin: 0, lineHeight: '1.8', fontFamily: 'sans-serif', fontSize: '15px' }}>
+          <ul style={{ color: '#FFFFEB', listStyleType: 'none', padding: 0, margin: 0, lineHeight: '1.8', fontFamily: 'sans-serif', fontSize: '15px' }}>
             <li style={{ display: 'flex', alignItems: 'center' }}>
               <span style={{ marginRight: '10px', fontSize: '18px' }}>•</span> Contact
             </li>

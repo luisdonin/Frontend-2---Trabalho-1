@@ -1,14 +1,16 @@
 export function Reviews({ review, costumerName, profileType, isLast }) {
+  const customColor = { color: '#FFFFEB' };
+
   return (
     <div className={`col-md-4 px-4 py-2 d-flex flex-column justify-content-between ${!isLast ? 'border-end border-secondary' : ''}`}>
-      <p className="fs-5 text-light fw-normal mb-4">
+      <p className="fs-5 fw-normal mb-4" style={customColor}>
         "{review}"
       </p>
       <div>
-        <p className="fw-bold text-light mb-1 small d-flex align-items-center">
-          <span className="me-2 text-secondary">—</span>{costumerName}
+        <p className="fw-bold mb-1 small d-flex align-items-center" style={customColor}>
+          <span className="me-2" style={customColor}>—</span>{costumerName}
         </p>
-        <p className="text-secondary small mb-0 fw-bold" style={{ fontSize: '0.8rem' }}>
+        <p className="small mb-0 fw-bold" style={{ ...customColor, fontSize: '0.8rem' }}>
           {profileType}
         </p>
       </div>

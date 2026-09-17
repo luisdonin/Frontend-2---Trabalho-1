@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap');
 .text-box{
-    color: rgb(229, 231, 235) !important;
+    color: #FFFFEB !important;
     text-align: left;
     font-family: 'Syne', sans-serif;
     border-bottom: 2px solid rgb(229, 231, 235);

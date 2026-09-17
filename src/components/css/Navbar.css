@@ -16,12 +16,12 @@ h1 {
 }
 a {
     text-decoration: none !important;
-    color:rgb(229, 231, 235) !important;
+    color:#FFFFEB !important;
 }
 li{
     display: inline;
     margin: 10px;
-    color:rgb(229, 231, 235) !important;
+    color:#FFFFEB !important;
     font-family: 'Syne', sans-serif;
 }
 
