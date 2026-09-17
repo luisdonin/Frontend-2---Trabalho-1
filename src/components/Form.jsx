@@ -2,11 +2,11 @@ import usaHandMap from '../assets/usahandmap.png';
 
 export function Form() {
   return (
-    <div style={{ backgroundColor: '#151716', padding: '40px 20px', width: '100%', display: 'flex', justifyContent: 'center', borderTop: '1px solid #333', borderBottom: '1px solid #333' }}>
+    <div style={{ backgroundColor: '#151716', padding: '40px 20px', width: '100%', display: 'flex', justifyContent: 'center', borderBottom: '1px solid #333' }}>
       
       <div style={{ display: 'flex', flexDirection: 'row', width: '100%', maxWidth: '1000px', alignItems: 'center', flexWrap: 'wrap' }}>
         
-        {/* Left Column: Form Section */}
+        
         <div style={{ flex: 1, minWidth: '300px', paddingRight: '40px', borderRight: '1px solid #ffffff', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <form style={{ width: '100%', maxWidth: '400px', margin: '0' }}>
             <h2
@@ -46,7 +46,7 @@ export function Form() {
                 aria-label="Submit"
                 style={{
                   position: 'absolute',
-                  right: '10px', // Adjusted from -50px to keep icon inside the pill
+                  right: '10px', 
                   top: '50%',
                   transform: 'translateY(-50%)',
                   background: 'transparent',
@@ -74,7 +74,7 @@ export function Form() {
           </form>
         </div>
 
-        {/* Right Column: Graphic & Links Section */}
+        
         <div style={{ flex: 1, minWidth: '300px', paddingLeft: '40px', display: 'flex', alignItems: 'center' }}>
           <img
             src={usaHandMap}
