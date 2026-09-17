@@ -1,4 +1,3 @@
-import { Logo } from './Logo';
 import './css/Navbar.css'
 export function Navbar({title}){
     return(

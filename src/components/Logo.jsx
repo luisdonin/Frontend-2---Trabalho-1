@@ -1,5 +1,5 @@
 import './css/Logo.css';
-import logoImg from '../assets/logo.png'; // Properly import the asset
+import logoImg from '../assets/logo.png';
 
 export function Logo() {
   return (

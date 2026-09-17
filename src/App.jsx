@@ -1,7 +1,3 @@
-import { useState } from 'react'
-
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
 import {Navbar} from './components/Navbar';
 import { Subtitle } from './components/Subtitle'
@@ -14,7 +10,6 @@ import { Logo } from './components/Logo';
 import  oasis  from './assets/Oasis_Press_2.webp';
 import  oasisBig  from './assets/Oasis_Homepage_1.webp';
 import moreStack from './assets/more_stack.webp';
-import './components/Reviews';
 import {Reviews} from './components/Reviews';
 import { BigImage } from './components/BigImage';
 import {Form} from './components/Form'
