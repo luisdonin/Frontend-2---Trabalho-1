@@ -10,9 +10,15 @@
     width: 70%;
 }
 strong{
-    font-size: 64px !important;
+    font-size: clamp(2rem, 9vw, 64px) !important;
 }
 p{
-    font-size: 28px !important;
+    font-size: clamp(1.05rem, 4vw, 28px) !important;
     font-family: 'Syne', sans-serif; 
+}
+
+@media (max-width: 768px) {
+    .text-half-screen{
+        width: 100%;
+    }
 }

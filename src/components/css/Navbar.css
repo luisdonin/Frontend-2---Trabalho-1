@@ -9,6 +9,11 @@
     font-family: "Paprika", system-ui;
     background-color: #151716 !important;
     border-bottom: 2px solid rgb(229, 231, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 h1 {
    font-family: "Paprika", system-ui;
@@ -25,3 +30,17 @@ li{
     font-family: 'Syne', sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: center;
+    text-align: center;
+  }
+}
