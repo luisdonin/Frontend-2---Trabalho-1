@@ -21,3 +21,6 @@ Não foi possível implementar alguns dos requisitos como:
 * logo com position fixed mas as vezes a posição faz overlap com icones ig e cart
 * substituir ig e cart por icones
 * pequenos ajustes nas imagens como borda
+
+# USO DE IA FOI MÍNIMO, APENAS PARA CONFIGURAR O REACT E ENTENDER COMO FUNCIONAM OS COMPONENTS
+# TENTEI USAR EM OUTRAS BRANCHES MAS NÃO GOSTEI DO RESULTADO.
